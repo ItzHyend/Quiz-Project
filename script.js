@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "Which programming language is best for 2025?",
+        question: "Which programming language is best ?",
 
         answers: [
             { text: "python", correct: false },
@@ -147,3 +147,4 @@ nextButton.addEventListener("click", () => {
 
 
 startQuiz();
+
