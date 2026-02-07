@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "Which programming language is best ?",
+        question: "Which programming language is best?",
 
         answers: [
             { text: "python", correct: false },
@@ -11,7 +11,7 @@ const questions = [
 
     },
     {
-        question: "Which is the world largest it company 2025?",
+        question: "Which is the world largest it company?",
 
         answers: [
             { text: "Nvidia", correct: true },
@@ -34,7 +34,7 @@ const questions = [
         question: "Who get the clients in a it company?",
 
         answers: [
-            { text: "Sales Teams", correct: true },
+            { text: "Sales Teams", correct: false },
             { text: "Business Development Managers", correct: true },
             { text: "Employee", correct: false },
             { text: "Team Leader", correct: false },
@@ -147,4 +147,5 @@ nextButton.addEventListener("click", () => {
 
 
 startQuiz();
+
 
