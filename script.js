@@ -3,20 +3,20 @@ const questions = [
         question: "Which programming language is best for 2025?",
 
         answers: [
-            { text: "python", correct: true },
+            { text: "python", correct: false },
             { text: "C++", correct: false },
             { text: "Java", correct: false },
-            { text: "Rust", correct: false },
+            { text: "All the programming languages", correct: true },
         ]
 
     },
     {
-        question: "which is the world largest it company 2025?",
+        question: "Which is the world largest it company 2025?",
 
         answers: [
-            { text: "Nvidia", correct: false },
+            { text: "Nvidia", correct: true },
             { text: "Amazon", correct: false },
-            { text: "Apple", correct: true },
+            { text: "Apple", correct: false },
             { text: "Tesla", correct: false },
         ]
     },
@@ -31,17 +31,17 @@ const questions = [
         ]
     },
     {
-        question: "who get the clients in a it company?",
+        question: "Who get the clients in a it company?",
 
         answers: [
-            { text: "Sales Teams", correct: false },
-            { text: "Business Development Managers", correct: false },
-            { text: "All Of Them", correct: true },
-            { text: "Relationship Managers", correct: false },
+            { text: "Sales Teams", correct: true },
+            { text: "Business Development Managers", correct: true },
+            { text: "Employee", correct: false },
+            { text: "Team Leader", correct: false },
         ]
     },
     {
-        question: "in a company who designs the website for the clients?",
+        question: "In a company who designs the website for the clients?",
 
         answers: [
             { text: "Web Designers", correct: true },
@@ -51,7 +51,7 @@ const questions = [
         ]
     },
     {
-        question: "what's the first programming language in the world?",
+        question: "What's the first programming language in the world?",
 
         answers: [
             { text: "Java", correct: false },
@@ -144,5 +144,6 @@ nextButton.addEventListener("click", () => {
         startQuiz()
     }
 })
+
 
 startQuiz();
